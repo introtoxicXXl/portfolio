@@ -7,7 +7,6 @@ body{
 }
 .flexibal{
   display: flex;
-  align-items: center;
 }
 .background{
   background-image: url(../image/top-banner.png);
@@ -48,4 +47,30 @@ a{
 .h1{
   text-align: center;
   font-size: 50px;
+}
+.exprince-item{
+  width: 40%;
+  margin:0 5%;
+  padding: 20px;
+  box-shadow:rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.exprince{
+  margin-bottom: 150px;
+  background-image: url(../image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack{
+  border-left: 5px solid;
+  border-image: linear-gradient(tomato, orange);
+  border-image-slice: 1;
+}
+#baby-div{
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, rgb(0, 162, 255));
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
 }
