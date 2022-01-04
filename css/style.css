@@ -5,10 +5,8 @@ body{
 .orange{
   color: orange;
 }
-section{
+.flexibal{
   display: flex;
-  height: 100vh;
-  width: 100%;
   align-items: center;
 }
 .background{
@@ -28,7 +26,7 @@ section{
   text-align: justify;
 }
 .half-width h1{
-  font-size: 55px;
+  font-size: 43px;
   font-weight: 700;
   line-height: 12px;
 }
@@ -46,4 +44,8 @@ a{
   background-image: url(../image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+}
+.h1{
+  text-align: center;
+  font-size: 50px;
 }
